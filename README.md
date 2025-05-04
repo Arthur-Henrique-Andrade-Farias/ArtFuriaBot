@@ -1,11 +1,11 @@
-FURIA Fans Bot - Telegram
+**FURIA Fans Bot - Telegram**
 
 Telegram chatbot para acompanhar tudo da line Counter‑Strike 2 da FURIA, criado para o Challenge #1 – Estágio FURIA Tech.
 
-Como usar:
+**Como usar:**
 • Abra o bot no Telegram: https://t.me/ArthurFuriaBot
 
-Funcionalidades
+**Funcionalidades**
 
 Comando / Botão    – Descrição
 /start             – Boas‑vindas e menu inline
@@ -17,12 +17,12 @@ Comando / Botão    – Descrição
 /news    (📰)      – Manchetes recentes (links externos)
 /links   (🔗)      – Liquipedia, HLTV, Twitter, Instagram
 
-Preview do menu principal
+**Preview do menu principal**
 
 🐍 FURIA Fans Bot pronto para o clutch!
 Acompanhe resultados, agenda, roster e notícias em tempo real.
 
-Instalação local
+**Instalação local**
 
 Clone o repositório
 
@@ -34,28 +34,28 @@ Adicione o token do Bot (<BOT_TOKEN>) em um arquivo .env
 
 Rode: python furia_telegram_bot.py
 
-Docker
+**Docker**
 
 Executar: docker compose up --build -d
 
-Requisitos
+**Requisitos**
 
 • Python 3.11+
 • Dependências: aiogram>=3.7, httpx, beautifulsoup4, python-dotenv
 
-Deploy sugerido
+**Deploy sugerido**
 
 • Render  – Web Service Docker, variável BOT_TOKEN
 • Railway – Deploy via Git, variável BOT_TOKEN
 • Fly.io  – fly launch; depois fly secrets set BOT_TOKEN=...
 • Cloudflare Workers – versão Python worker (não incluída)
 
-Estrutura do projeto
+**Estrutura do projeto**
 
 furia_fans_bot/
 furiaBot.py
 README.txt (este arquivo)
 
-Contribuição
+**Contribuição**
 
 Issues e pull requests são bem‑vindos.
